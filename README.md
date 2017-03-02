@@ -16,7 +16,7 @@ Data Cleaning: We handled missing values, garbage values, performed outlier dete
 
 Feature Engineering: Using the user’s travel history, we computed the seasons in which the user most frequently travels in. We identified the type of apartments the user stays in to identify user’s interests and preferences.
 
-Kindly refer to the Alteryx scripts used for Data Cleaning and Data Transformation.
+Kindly refer to the [Alteryx scripts](https://github.com/vasantivmahajan/Profile-based-recommendation-system-for-Airbnb-users---Big-Data-and-Machine-Learning-project-/tree/master/Alteryx%20scripts) used for Data Cleaning and Data Transformation.
 
 Step 2: Calculating the score for every listing using Neural Network:
 
@@ -24,7 +24,7 @@ For every listing we computed the score to analyse how suitable a listing is on 
 
   Step 2.1: To compute this, for every listing we gathered the user’s that have already stayed in it. We identified the age group they       belonged to, their profession, the seasons in which they travelled and their hobbies. Using min-max normalization technique we           computed the score for each of these parameters and fed it as training data for our neural network. 
   
-  Step 2.2: We used a Multi-Layer Perceptron with backpropagation in Neuroph to predict the score for unseen data (listings not used for   training). Refer to the Output files/All listings for the output of the neural network for every parameter. 
+  Step 2.2: We used a Multi-Layer Perceptron with backpropagation in Neuroph to predict the score for unseen data (listings not used for   training). Refer to the [link](https://github.com/vasantivmahajan/Profile-based-recommendation-system-for-Airbnb-users---Big-Data-and-Machine-Learning-project-/tree/master/Output%20files/All%20listings) for the output of the neural network for every parameter. 
   
 This was performed for each of the parameters; age-group, profession, seasons and interests and we computed the score for every listing.
 
@@ -40,7 +40,7 @@ Step 3: Predicting user's future trips:
   
   Step 3.5: These 7 listings were then recommended to the user.
   
-  Refer to the Output files/Neural Network folder for the recommended listings for every user.
+  Refer [here](https://github.com/vasantivmahajan/Profile-based-recommendation-system-for-Airbnb-users---Big-Data-and-Machine-Learning-project-/tree/master/Output%20files/Neural%20network) folder for the recommended listings for every user.
   
 Thus we trained our model and created a web service of the model using R. 
 

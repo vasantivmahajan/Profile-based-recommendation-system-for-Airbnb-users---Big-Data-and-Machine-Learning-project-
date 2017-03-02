@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CombinedDataInXL.xlsx
+Table=`CombinedSheet$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="listing_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="scrape_id" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="last_scraped" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="summary" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="space" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="description" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="experiences_offered" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="neighborhood_overview" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="notes" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="transit" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="thumbnail_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="medium_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="picture_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="xl_picture_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_id" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_name" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_since" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_location" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_about" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_response_time" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_response_rate" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="Double" />
+            <Field name="host_acceptance_rate" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="Double" />
+            <Field name="host_is_superhost" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_thumbnail_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_picture_url" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_neighbourhood" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_listings_count" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_total_listings_count" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_verifications" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_has_profile_pic" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="host_identity_verified" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="street" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="neighbourhood" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="neighbourhood_cleansed" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="neighbourhood_group_cleansed" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="city" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="zipcode" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="market" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="smart_location" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="country_code" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="country" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="latitude" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="longitude" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="is_location_exact" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="property_type" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="room_type" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="accommodates" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="bathrooms" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="bedrooms" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="beds" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="bed_type" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="amenities" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="square_feet" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="price" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="weekly_price" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="monthly_price" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="security_deposit" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="cleaning_fee" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="guests_included" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="extra_people" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="minimum_nights" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="maximum_nights" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="calendar_updated" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="has_availability" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="availability_30" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="availability_60" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="availability_90" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="availability_365" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="calendar_last_scraped" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="number_of_reviews" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="first_review" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="last_review" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="review_scores_rating" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="Double" />
+            <Field name="review_scores_accuracy" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="review_scores_cleanliness" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="review_scores_checkin" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="review_scores_communication" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="review_scores_location" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="review_scores_value" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="requires_license" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="license" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="jurisdiction_names" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="instant_bookable" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="cancellation_policy" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="require_guest_profile_picture" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="require_guest_phone_verification" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="calculated_host_listings_count" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="reviews_per_month" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="access" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="interaction" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+            <Field name="house_rules" size="255" source="File: C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\CombinedData\CombinedDataInXL.xlsx|`CombinedSheet$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="access" selected="False" />
+            <SelectField field="accommodates" selected="False" />
+            <SelectField field="amenities" selected="True" />
+            <SelectField field="availability_30" selected="False" />
+            <SelectField field="availability_365" selected="False" />
+            <SelectField field="availability_60" selected="False" />
+            <SelectField field="availability_90" selected="False" />
+            <SelectField field="bathrooms" selected="False" />
+            <SelectField field="bed_type" selected="False" />
+            <SelectField field="bedrooms" selected="False" />
+            <SelectField field="beds" selected="False" />
+            <SelectField field="calculated_host_listings_count" selected="False" />
+            <SelectField field="calendar_last_scraped" selected="False" />
+            <SelectField field="calendar_updated" selected="False" />
+            <SelectField field="cancellation_policy" selected="False" />
+            <SelectField field="city" selected="False" />
+            <SelectField field="cleaning_fee" selected="False" />
+            <SelectField field="country" selected="False" />
+            <SelectField field="country_code" selected="False" />
+            <SelectField field="description" selected="False" />
+            <SelectField field="experiences_offered" selected="False" />
+            <SelectField field="extra_people" selected="False" />
+            <SelectField field="first_review" selected="False" />
+            <SelectField field="guests_included" selected="False" />
+            <SelectField field="has_availability" selected="False" />
+            <SelectField field="host_about" selected="False" />
+            <SelectField field="host_acceptance_rate" selected="True" />
+            <SelectField field="host_has_profile_pic" selected="False" />
+            <SelectField field="host_id" selected="False" />
+            <SelectField field="host_identity_verified" selected="True" />
+            <SelectField field="host_is_superhost" selected="True" />
+            <SelectField field="host_listings_count" selected="False" />
+            <SelectField field="host_location" selected="False" />
+            <SelectField field="host_name" selected="False" />
+            <SelectField field="host_neighbourhood" selected="False" />
+            <SelectField field="host_picture_url" selected="False" />
+            <SelectField field="host_response_rate" selected="True" />
+            <SelectField field="host_response_time" selected="True" />
+            <SelectField field="host_response_time_within a day" selected="True" />
+            <SelectField field="host_response_time_within a few days or more" selected="True" />
+            <SelectField field="host_response_time_within a few hours" selected="True" />
+            <SelectField field="host_response_time_within an hour" selected="True" />
+            <SelectField field="host_since" selected="False" />
+            <SelectField field="host_thumbnail_url" selected="False" />
+            <SelectField field="host_total_listings_count" selected="False" />
+            <SelectField field="host_url" selected="False" />
+            <SelectField field="host_verifications" selected="False" />
+            <SelectField field="house_rules" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="instant_bookable" selected="True" />
+            <SelectField field="interaction" selected="False" />
+            <SelectField field="is_location_exact" selected="False" />
+            <SelectField field="jurisdiction_names" selected="False" />
+            <SelectField field="last_review" selected="False" />
+            <SelectField field="last_scraped" selected="False" />
+            <SelectField field="latitude" selected="False" />
+            <SelectField field="license" selected="False" />
+            <SelectField field="listing_url" selected="False" />
+            <SelectField field="longitude" selected="False" />
+            <SelectField field="market" selected="False" />
+            <SelectField field="maximum_nights" selected="False" />
+            <SelectField field="medium_url" selected="False" />
+            <SelectField field="minimum_nights" selected="False" />
+            <SelectField field="monthly_price" selected="False" />
+            <SelectField field="name" selected="False" />
+            <SelectField field="neighborhood_overview" selected="False" />
+            <SelectField field="neighbourhood" selected="False" />
+            <SelectField field="neighbourhood_cleansed" selected="True" />
+            <SelectField field="neighbourhood_group_cleansed" selected="False" />
+            <SelectField field="notes" selected="False" />
+            <SelectField field="number_of_reviews" selected="False" />
+            <SelectField field="picture_url" selected="False" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="property_type" selected="True" />
+            <SelectField field="require_guest_phone_verification" selected="False" />
+            <SelectField field="require_guest_profile_picture" selected="False" />
+            <SelectField field="requires_license" selected="False" />
+            <SelectField field="review_scores_accuracy" selected="False" />
+            <SelectField field="review_scores_checkin" selected="False" />
+            <SelectField field="review_scores_cleanliness" selected="False" />
+            <SelectField field="review_scores_communication" selected="False" />
+            <SelectField field="review_scores_location" selected="False" />
+            <SelectField field="review_scores_rating" selected="True" />
+            <SelectField field="review_scores_value" selected="False" />
+            <SelectField field="reviews_per_month" selected="False" />
+            <SelectField field="room_type" selected="True" />
+            <SelectField field="scrape_id" selected="False" />
+            <SelectField field="security_deposit" selected="False" />
+            <SelectField field="smart_location" selected="False" />
+            <SelectField field="space" selected="False" />
+            <SelectField field="square_feet" selected="False" />
+            <SelectField field="state" selected="False" />
+            <SelectField field="street" selected="False" />
+            <SelectField field="summary" selected="False" />
+            <SelectField field="thumbnail_url" selected="False" />
+            <SelectField field="transit" selected="False" />
+            <SelectField field="weekly_price" selected="False" />
+            <SelectField field="xl_picture_url" selected="False" />
+            <SelectField field="zipcode" selected="False" />
+            <SelectField field="PT_Apartment" selected="True" />
+            <SelectField field="PT_Bed &amp; Breakfast" selected="True" />
+            <SelectField field="PT_Boat" selected="True" />
+            <SelectField field="PT_Bunglow" selected="True" />
+            <SelectField field="PT_Cabin" selected="True" />
+            <SelectField field="PT_Camper/RV" selected="True" />
+            <SelectField field="PV_Chalet" selected="True" />
+            <SelectField field="PV_Condominium" selected="True" />
+            <SelectField field="PV_Dorm" selected="True" />
+            <SelectField field="PV_EarthHouse" selected="True" />
+            <SelectField field="PV_House" selected="True" />
+            <SelectField field="PV_Hut" selected="True" />
+            <SelectField field="PV_Loft" selected="True" />
+            <SelectField field="PV_Other" selected="True" />
+            <SelectField field="PV_Tent" selected="True" />
+            <SelectField field="PV_Townhouse" selected="True" />
+            <SelectField field="PV_Villa" selected="True" />
+            <SelectField field="PV_Yurt" selected="True" />
+            <SelectField field="last_searched" selected="False" />
+            <SelectField field="region_id" selected="False" />
+            <SelectField field="region_name" selected="False" />
+            <SelectField field="region_parent_id" selected="False" />
+            <SelectField field="region_parent_name" selected="False" />
+            <SelectField field="HouseRules_NoSmoking" selected="True" type="V_String" size="19" />
+            <SelectField field="HouseRules_SmokingAllowedInBalcony" selected="True" />
+            <SelectField field="HouseRules_PartiesAllowed" selected="True" type="V_String" size="19" />
+            <SelectField field="HouseRules_NoNoiseAfter10pm" selected="True" type="V_String" size="19" />
+            <SelectField field="F105" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Vasanti\AppData\Local\Temp\Engine_9048_1e675360e40144bf9806ed92484f7895_\Engine_21784_2fe1203bbc4d49e9b660bcbb186c7217_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="host_identity_verified" type="V_String" size="255" expression="IF [host_identity_verified]=='f' THEN 0 ELSE 1 ENDIF" />
+            <FormulaField field="instant_bookable" type="V_String" size="255" expression="IF [instant_bookable]=='f' THEN 0 ELSE 1 ENDIF" />
+            <FormulaField field="host_response_time_within a day" type="V_String" size="254" expression="IF [host_response_time]='within a day' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="host_response_time_within a few days or more" type="V_String" size="254" expression="IF [host_response_time]='a few days or more' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="host_response_time_within a few hours" type="V_String" size="254" expression="IF [host_response_time]='within a few hours' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="host_response_time_within an hour" type="V_String" size="254" expression="IF [host_response_time]='within an hour' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PT_Apartment" type="Double" size="8" expression="IF [property_type]='Apartment' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PT_Bed &amp; Breakfast" type="Double" size="8" expression="IF [property_type]='Bed &amp; Breakfast' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PT_Boat" type="Double" size="8" expression="IF [property_type]='Boat' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PT_Bunglow" type="Double" size="8" expression="IF [property_type]='Bungalow' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PT_Cabin" type="Double" size="8" expression="IF [property_type]='Cabin' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PT_Camper/RV" type="Double" size="8" expression="IF [property_type]='Camper/RV' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Chalet" type="Double" size="8" expression="IF [property_type]='Chalet' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Condominium" type="Double" size="8" expression="IF [property_type]='Condominium' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Dorm" type="Double" size="8" expression="IF [property_type]='Dorm' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_EarthHouse" type="Double" size="8" expression="IF [property_type]='EarthHouse' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_House" type="Double" size="8" expression="IF [property_type]='House' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Hut" type="Double" size="8" expression="IF [property_type]='Hut' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Loft" type="Double" size="8" expression="IF [property_type]='Loft' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Other" type="Double" size="8" expression="IF [property_type]='Other' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Tent" type="Double" size="8" expression="IF [property_type]='Temp' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Townhouse" type="Double" size="8" expression="IF [property_type]='Townhouse' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Villa" type="Double" size="8" expression="IF [property_type]='Villa' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="PV_Yurt" type="Double" size="8" expression="IF [property_type]='Yurt' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="RT_EntireHome/Apt" type="Double" size="8" expression="IF [room_type]='Entire home/apt' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="RT_PrivateRoom" type="Double" size="8" expression="IF [room_type]='Private room' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="RT_SharedRoom" type="Double" size="8" expression="IF [room_type]='Shared room' THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="Amenities_Wifi" type="V_String" size="255" expression="IIF(Contains([amenities],&quot;Wireless Internet&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="Amenities_Elevator in building" type="V_String" size="255" expression="IIF(Contains([amenities],&quot;Elevator in Building&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="Amenities_Heating" type="V_String" size="255" expression="IIF(Contains([amenities],&quot;Heating&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="Amenities_TV" type="V_String" size="255" expression="IIF(Contains([amenities],&quot;TV&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="Amenities_Washer" type="V_String" size="255" expression="IIF(Contains([amenities],&quot;Washer&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="Amenities_FreeParking" type="V_String" size="255" expression="IIF(Contains([amenities],&quot;Free Parking on Premises&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="HouseRules_ChildrenFriendly" type="V_String" size="64" expression="IIF(Contains([amenities],&quot;Family/Kid Friendly&quot;), &quot;1&quot;,&quot;0&quot;)" />
+            <FormulaField field="HouseRules_PetFriendly" type="V_String" size="64" expression="IIF(Contains([amenities],&quot;Pets Allowed&quot;), &quot;1&quot;,&quot;0&quot;)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>host_identity_verified=IF [host_identity_verified]=='f' THEN ...
+instant_bookable=IF [instant_bookable]=='f' THEN 0 ELSE 1 ENDIF
+host_response_time_within a day=IF [host_response_time]='with...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="534" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\Vasanti\Desktop\NEU docs\Study material\Big data engineering\Project\Dataset\Cleaned Data\Cleaned Data_v0.6.xlsx|CombinedData</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cleaned Data_v0.6.xlsx
+Table=CombinedData</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="host_acceptance_rate" selected="True" />
+            <SelectField field="host_identity_verified" selected="True" />
+            <SelectField field="host_is_superhost" selected="True" />
+            <SelectField field="host_response_rate" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="instant_bookable" selected="True" />
+            <SelectField field="neighbourhood_cleansed" selected="True" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="review_scores_rating" selected="True" />
+            <SelectField field="HouseRules_NoSmoking" selected="True" />
+            <SelectField field="HouseRules_SmokingAllowedInBalcony" selected="True" />
+            <SelectField field="HouseRules_PartiesAllowed" selected="True" />
+            <SelectField field="HouseRules_NoNoiseAfter10pm" selected="True" />
+            <SelectField field="host_response_time_within a day" selected="True" />
+            <SelectField field="host_response_time_within a few days or more" selected="True" />
+            <SelectField field="host_response_time_within a few hours" selected="True" />
+            <SelectField field="host_response_time_within an hour" selected="True" />
+            <SelectField field="PT_Apartment" selected="True" />
+            <SelectField field="PT_Bed &amp; Breakfast" selected="True" />
+            <SelectField field="PT_Boat" selected="True" />
+            <SelectField field="PT_Bunglow" selected="True" />
+            <SelectField field="PT_Cabin" selected="True" />
+            <SelectField field="PT_Camper/RV" selected="True" />
+            <SelectField field="PV_Chalet" selected="True" />
+            <SelectField field="PV_Condominium" selected="True" />
+            <SelectField field="PV_Dorm" selected="True" />
+            <SelectField field="PV_EarthHouse" selected="True" />
+            <SelectField field="PV_House" selected="True" />
+            <SelectField field="PV_Hut" selected="True" />
+            <SelectField field="PV_Loft" selected="True" />
+            <SelectField field="PV_Other" selected="True" />
+            <SelectField field="PV_Tent" selected="True" />
+            <SelectField field="PV_Townhouse" selected="True" />
+            <SelectField field="PV_Villa" selected="True" />
+            <SelectField field="PV_Yurt" selected="True" />
+            <SelectField field="RT_EntireHome/Apt" selected="True" />
+            <SelectField field="RT_PrivateRoom" selected="True" />
+            <SelectField field="RT_SharedRoom" selected="True" />
+            <SelectField field="Amenities_Wifi" selected="True" />
+            <SelectField field="Amenities_Elevator in building" selected="True" />
+            <SelectField field="Amenities_Heating" selected="True" />
+            <SelectField field="Amenities_TV" selected="True" />
+            <SelectField field="Amenities_Washer" selected="True" />
+            <SelectField field="Amenities_FreeParking" selected="True" />
+            <SelectField field="HouseRules_ChildrenFriendly" selected="True" />
+            <SelectField field="HouseRules_PetFriendly" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Sample</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -23,4 +23,6 @@ Step 2: Calculating the score for every listing using Neural Network:
 For every listing we computed the score to analyse how suitable a listing is on the basis of age-group, profession, seasons and interests
   Step 2.1: To compute this, for every listing we gathered the user’s that have already stayed in it. We identified the age group they       belonged to, their profession, the seasons in which they travelled and their hobbies. Using min-max normalization technique we           computed the score for each of these parameters and fed it as training data for our neural network. 
   
+  Step 2.2: We used Train Matchbox Recommender module to train a recommendation model based on the Matchbox recommender engine. Refer to the Train Matchbox Recommender module [here](https://msdn.microsoft.com/en-us/library/azure/dn905987.aspx).
+  
 

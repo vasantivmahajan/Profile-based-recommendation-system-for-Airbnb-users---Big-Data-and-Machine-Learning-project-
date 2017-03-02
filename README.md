@@ -1,10 +1,10 @@
 # Profile-based-recommendation-system-for-Airbnb-users---Big-Data-and-Machine-Learning-project-
 
 ## Problem Statement
-Airbnb is an online market place that enables users to list, find and rent vacation homes. Airbnb connects people to unique travel experiences, at any price point, in more than 34,000 cities and 191 countries. Airbnb has a diverse customer base, it is used by people from different age groups, professions and interests. Some customers prefer places which are closer to the city whereas some others love to enjoy the natural beauty by living in cottages. Since every customer has different interests it is essential that the user is recommended houses on the basis of their profile.
+Airbnb is an online marketplace that enables users to list, find and rent vacation homes. Airbnb connects people to unique travel experiences, at any price point, in more than 34,000 cities and 191 countries. Airbnb has a diverse customer base, it is used by people from different age groups, professions and interests. Some customers prefer places which are closer to the city whereas some others love to enjoy the natural beauty by living in cottages. Since every customer has different interests it is essential that the user is recommended houses on the basis of their profile.
 
 ## Proposed System:
-I along with my team, developed a profile based recommendation system using supervised learning techniques where user’s future trips are predicted on the basis of their past trips and preferences. User's age group, profession, interests and most frequently traveled seasons are taken into consideration for building the user's profile. The proposed system would build a good customer experience by reducing the average time of booking and better demand forecasting. 
+I along with my team, developed a profile based recommendation system using supervised learning techniques where user’s future trips are predicted on the basis of their past trips and preferences. User's age group, profession, interests and most frequently travelled seasons are taken into consideration for building the user's profile. The proposed system would build a good customer experience by reducing the average time of booking and better demand forecasting. 
 
 ## Approach:
  
@@ -30,7 +30,7 @@ This was performed for each of the parameters; age-group, profession, seasons an
 
 Step 3: Predicting user's future trips:
     
-  Step 3.1: We used Train Matchbox Recommender module to train a recommendation model based on the Matchbox recommender engine and used   Score Matchbox Recommender to generate recommendations. We computed the triplets eg: userid, listingid and ageweights (age weights are   the weights that were computed by our neural network for every listing in Step 2. We chose age_weight of the age group in which the     user belongs to). Refer to the Train Matchbox Recommender module [here](https://msdn.microsoft.com/en-us/library/azure/dn905987.aspx). 
+  Step 3.1: We used Train Matchbox Recommender module to train a recommendation model based on the Matchbox recommender engine and used   Score Matchbox Recommender to generate recommendations. We computed the triplets eg: userid, listingid and ageweights (age weights are   the weights that were computed by our neural network for every listing in Step 2. We chose age_weight of the age group to which the     user belongs to). Refer to the Train Matchbox Recommender module [here](https://msdn.microsoft.com/en-us/library/azure/dn905987.aspx). 
   
   Step 3.2: We trained the data and computed the top 25 recommendations for the user based on their age weights. Once we got the top 25   recommendations, we sorted these recommendations by their age weights and top 15 listings were chosen for the user.
   
@@ -46,13 +46,14 @@ Thus we trained our model and created a web service of the model using R.
 
 Step 4: Creating a web application:
 
-  Step 4.1: We build a live Spring MVC application where the 1.3 million listings and the users data were stored in MongoDB. The           listings that were recommended to the user were fed into Mongo DB and were displayed in the application on Google Maps.
+  Step 4.1: We build a live Spring MVC application where the 1.3 million listings and the user's data were stored in MongoDB. The           listings that were recommended to the user were fed into Mongo DB and were displayed in the application on Google Maps.
 
   Step 4.2: We created a web service of our model and consumed the web service in our Spring MVC application.
   
-  Step 4.3: The latitude and longitude value for every recommended listing was fed to the merker object of og google maps and they were   binded with a click event done using closures.
+  Step 4.3: The latitude and longitude value for every recommended listing was fed to the marker object of google maps and they were    
+  bound with a click event done using closures.
 
-Refer to the Project Report for detailed explanation.
+Refer to the Project Report for the detailed explanation.
 
   
   

@@ -40,7 +40,7 @@ Step 3: Predicting user's future trips:
   
   Step 3.5: These 7 listings were then recommended to the user.
   
-  Refer [here](https://github.com/vasantivmahajan/Profile-based-recommendation-system-for-Airbnb-users---Big-Data-and-Machine-Learning-project-/tree/master/Output%20files/Neural%20network) folder for the recommended listings for every user.
+  Refer [here](https://github.com/vasantivmahajan/Profile-based-recommendation-system-for-Airbnb-users---Big-Data-and-Machine-Learning-project-/tree/master/Output%20files/Neural%20network) for the recommended listings for every user.
   
 Thus we trained our model and created a web service of the model using R. 
 
